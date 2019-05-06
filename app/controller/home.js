@@ -4,7 +4,9 @@ const Controller = require('egg').Controller;
 
 class HomeController extends Controller {
   async index() {
-    this.ctx.body = 'hi, ' + this.app.plugins.colors.name;
+    const { ctx } = this;
+    let text = await ctx.colors.eggConsole('1111111111');
+    ctx.body = text;
   }
 }
 
