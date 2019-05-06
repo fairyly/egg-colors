@@ -54,6 +54,25 @@ see [config/config.default.js](config/config.default.js) for more detail.
 
 <!-- example here -->
 
+```
+# controller/home.js
+
+'use strict';
+
+const Controller = require('egg').Controller;
+
+class HomeController extends Controller {
+  async index() {
+    const { ctx } = this;
+    let text = await this.ctx.red('1111111111');
+    ctx.body = text;
+  }
+}
+
+module.exports = HomeController;
+
+```
+
 ## Questions & Suggestions
 
 Please open an issue [here](https://github.com/eggjs/egg/issues).
