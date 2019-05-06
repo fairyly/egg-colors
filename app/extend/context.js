@@ -3,10 +3,6 @@
 const colors = require('colors');
 
 module.exports = {
-  eggConsole(text) {
-    console.log(text);
-    return text.red;
-  },
   black(text) {
     return text.black;
   },
@@ -36,5 +32,5 @@ module.exports = {
   },
   grey(text) {
     return text.grey;
-  },
+  }
 };

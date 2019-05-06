@@ -1,6 +1,6 @@
 {
   "name": "egg-colors",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "description": "colors for egg",
   "eggPlugin": {
     "name": "colors"
