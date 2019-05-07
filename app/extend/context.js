@@ -4,33 +4,33 @@ const colors = require('colors');
 
 module.exports = {
   black(text) {
-    return text.black;
+    return console.log(text.black);
   },
   red(text) {
-    return text.red;
+    return console.log(text.red);
   },
   green(text) {
-    return text.green;
+    return console.log(text.green);
   },
   yellow(text) {
-    return text.yellow;
+    return console.log(text.yellow);
   },
   blue(text) {
-    return text.blue;
+    return console.log(text.blue);
   },
   magenta(text) {
-    return text.magenta;
+    return console.log(text.magenta);
   },
   cyan(text) {
-    return text.cyan;
+    return console.log(text.cyan);
   },
   white(text) {
-    return text.white;
+    return console.log(text.white);
   },
   gray(text) {
-    return text.gray;
+    return console.log(text.gray);
   },
   grey(text) {
-    return text.grey;
+    return console.log(text.grey);
   }
 };

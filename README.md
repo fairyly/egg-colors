@@ -64,8 +64,18 @@ const Controller = require('egg').Controller;
 class HomeController extends Controller {
   async index() {
     const { ctx } = this;
-    let text = await this.ctx.red('1111111111');
-    ctx.body = text;
+    await ctx.red('1111111111');
+    // await ctx.balck('123456');
+		// await ctx.red('123456');
+		// await ctx.green('123456');
+		// await ctx.yellow('123456');
+		// await ctx.blue('123456');
+		// await ctx.magenta('123456');
+		// await ctx.cyan('123456');
+		// await ctx.white('123456');
+		// await ctx.gray('123456');
+		// await ctx.grey('123456');
+    ctx.body = 'text';
   }
 }
 
